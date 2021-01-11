@@ -1,6 +1,6 @@
 import asyncio, time, os, asyncio, json
 from telethon.tl.types import DocumentAttributeAudio
-from AkenoHimejimabot.events import register
+from AkenoHimejimabot.event import register
 from AkenoHimejimabot.utils import progress
 from youtube_dl import YoutubeDL
 from youtube_dl.utils import (DownloadError, ContentTooShortError,
