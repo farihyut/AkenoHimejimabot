@@ -35,4 +35,5 @@ spotdl
 gtts
 pandas
 fontTools
-
+youtube-search-python
+youtube_dl
