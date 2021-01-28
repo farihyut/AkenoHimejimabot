@@ -207,15 +207,7 @@ def start(update: Update, context: CallbackContext):
                              text="🦋 Support 🦋",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
 
-                     ],
-                      [
-                         InlineKeyboardButton(
-                             text="« «〘 Ryūzoku 〙» »",
-                             url=f"https://t.me/AnimeRyuzoku"),
-
-                       ]
-                      
-                    
+                     ] 
                      ]))
     else:
   
