@@ -508,6 +508,11 @@ def hentaigif(update, context):
 
 @run_async
 def classic(update, context):
+    chat_id = update.effective_chat.id
+    if not update.effective_message.chat.type == "private":
+        is_nsfw = sql.is_nsfw(chat_id)
+        if not is_nsfw:
+            return
     msg = update.effective_message
     target = "classic"
     msg.reply_video(nekos.img(target))
@@ -813,8 +818,6 @@ __handlers__ = [
 ]
 
 __help__ = """
-Module credits: [Dank-del](https://github.com/Dank-del/Chizuru/) ,
-Also thanks to [EverythingSuckz](https://t.me/EverythingSuckz) for NSFW filter.
     
 Usage:
     
@@ -872,6 +875,9 @@ Commands :
  - /smug: Sends Random Smug GIFs.
  - /baka: Sends Random Baka Shout GIFs.
  - /dva: Sends Random D.VA source Images.
+
+Thanks to [EverythingSuckz](https://t.me/EverythingSuckz) for NSFW filter.
+
 """
 
 __mod_name__ = "NSFW"
