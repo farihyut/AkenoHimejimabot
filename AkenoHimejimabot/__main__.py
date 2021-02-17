@@ -54,17 +54,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-*Ara Ara...* {}, I am {}!
-It will be pleasure for me to serve your chat  🤍
-*Meet me at* @AnimeRyuzoku !
+Hoi! {}, I am Itsuki!
+I'm good at shooting! what's more to shoot your heart: v 
+My [Owner](t.me/coiju)
 """
 
 HELP_STRINGS = """
 『Here's the commands for *{}*』
- 🦋 /help: PM's you this message.
- 🦋 /help <module name>: PM's you info about that module.
- 🦋 /donate: information on how to donate!
- 🦋 /settings: will send you your settings for all supported modules.
+  🔫/help: PM's you this message.
+ 🔫/help <module name>: PM's you info about that module.
+🔫/donate: information on how to donate!
+ 🔫/settings: will send you your settings for all supported modules.
 {}
 
 And the following:
@@ -72,8 +72,8 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-AKENOIMG = "https://telegra.ph/file/77e9231a97fa066836a55.mp4"
-AKENOPINGIMG = "https://telegra.ph/file/6cd255ca75a70c4ebe92d.gif"
+AKENOIMG = ""https://telegra.ph/file/d4deacf31d230ec04b6cb.jpg
+AKENOPINGIMG = ""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer of the Base code, Paul
@@ -201,11 +201,11 @@ def start(update: Update, context: CallbackContext):
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🦋 Repo 🦋",
-                             url=f"https://github.com/riasugremory/AkenoHimejimabot"),
+                             text="My Channel",
+                             url=f"https://t.me/takahashihelp"),
                          InlineKeyboardButton(
-                             text="🦋 Support 🦋",
-                             url=f"https://t.me/{SUPPORT_CHAT}"),
+                             text="🔫Support 🔫",
+                             url=f"https://t.me/itsukihelp"),
 
                      ] 
                      ]))
