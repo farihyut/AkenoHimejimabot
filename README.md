@@ -1,8 +1,6 @@
+Itsuki Bot
 
-![Akeno](https://telegra.ph/file/0b32f717cb86ee6272d35.jpg)
 
-
-# Akeno Himejima Bot 
 
 
 
@@ -14,10 +12,10 @@
 🦋 A modular Telegram Python bot made with [Saitama](https://github.com/AnimeKaizoku/SaitamaRobot) as a base. 
 
 
-🦋 Can be found on telegram as [AkenoHimejimaChatbot](https://t.me/AkenoHimejimaChatbot).
+🦋 Can be found on telegram as [Itsuki](https://t.me/Itsukitorakatabot).
 
 
-🦋 The Support group can be reached out to at [Support group](https://t.me/akenosupport)
+🦋 The Support group can be reached out to at [Support group](https://t.me/itsukisupport)
 
 ## How to setup/deploy.
 
